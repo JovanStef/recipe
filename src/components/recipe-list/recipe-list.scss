@@ -1,0 +1,30 @@
+
+  .table-container{
+    overflow: scroll;
+  }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    table-layout : fixed;
+  }
+
+  th{
+    background-color: #dddddd;
+
+  }
+  tr a{
+      color: inherit;
+      display: block;
+      width: 100%;
+  }
+  tr:hover{
+    background-color: #b3b3b3;
+    cursor: pointer;
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+ 
